@@ -18,7 +18,7 @@ export const navigation = [
       },
       {
         text: 'Current Time',
-        path: '/time',
+        path: '/current-time',
         icon: 'fas fa-clock'
       }
     ]
