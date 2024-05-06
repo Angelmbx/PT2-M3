@@ -15,6 +15,11 @@ export const navigation = [
       {
         text: 'Tasks',
         path: '/tasks'
+      },
+      {
+        text: 'Weather',
+        path: '/weather',
+        icon: 'fas fa-cloud-sun'
       }
     ]
   }
