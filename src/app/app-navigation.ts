@@ -5,8 +5,8 @@ export const navigation = [
     icon: 'home'
   },
   {
-    text: 'Examples',
-    icon: 'folder',
+    text: 'Features',
+    icon: 'fas fa-caret-up',
     items: [
       {
         text: 'Profile',
@@ -17,9 +17,9 @@ export const navigation = [
         path: '/tasks'
       },
       {
-        text: 'Weather',
-        path: '/weather',
-        icon: 'fas fa-cloud-sun'
+        text: 'Current Time',
+        path: '/time',
+        icon: 'fas fa-clock'
       }
     ]
   }
