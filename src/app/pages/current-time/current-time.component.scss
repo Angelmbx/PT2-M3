@@ -1,19 +1,12 @@
-:host {
-    display: block;
-    height: 100%;
-    background-color: black;
-  }
 
-.date{
+.date, .time{
     font-size: large;
-    background-color: aqua;
 }
 
-.time{
+.dateTimeTitles{
     font-weight: bold;
-    background-color: coral;
+    padding-top: 30%;
 }
-
 
 
 .content {
