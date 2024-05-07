@@ -1,0 +1,25 @@
+:host {
+    display: block;
+    height: 100%;
+    background-color: black;
+  }
+
+.date{
+    font-size: large;
+    background-color: aqua;
+}
+
+.time{
+    font-weight: bold;
+    background-color: coral;
+}
+
+
+
+.content {
+   background-color: bisque; 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   height: 100%;
+}

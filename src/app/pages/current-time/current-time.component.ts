@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class CurrentTimeComponent {
 
+  currentDate: string = '';
+
+  constructor(){
+    this.getCurrentDate();
+  }
+
+  getCurrentDate(){
+    const date = new Date();
+    this.currentDate = date.toLocaleDateString();
+  }
+
+
 }
