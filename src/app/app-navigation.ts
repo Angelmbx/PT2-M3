@@ -6,7 +6,7 @@ export const navigation = [
   },
   {
     text: 'Personal space',
-    icon: 'fas fa-caret-up',
+    icon: 'fas fa-id-card',
     items: [
       {
         text: 'Profile',
