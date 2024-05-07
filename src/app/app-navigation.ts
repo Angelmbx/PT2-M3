@@ -5,7 +5,7 @@ export const navigation = [
     icon: 'home'
   },
   {
-    text: 'Features',
+    text: 'Personal space',
     icon: 'fas fa-caret-up',
     items: [
       {
@@ -15,12 +15,13 @@ export const navigation = [
       {
         text: 'Tasks',
         path: '/tasks'
-      },
-      {
-        text: 'Current Time',
-        path: '/current-time',
-        icon: 'fas fa-clock'
       }
     ]
+  },
+  {
+    text: 'Current Time',
+    path: '/current-time',
+    icon: 'fas fa-clock'
+    
   }
 ];
