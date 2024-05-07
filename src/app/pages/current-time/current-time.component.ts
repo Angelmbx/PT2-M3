@@ -9,21 +9,26 @@ export class CurrentTimeComponent {
 
   currentDate: string = '';
   currentTime: string = '';
+  currentTimeInterval: any;
 
-  constructor(){
+  constructor() {
     this.getCurrentDate();
     this.getCurrentTime();
   }
 
-  getCurrentDate(){
+  getCurrentDate() {
     const date = new Date();
     this.currentDate = date.toLocaleDateString();
   }
 
-  getCurrentTime(){
-    const time = new Date();
-    this.currentTime = time.toLocaleTimeString();
-  }
+  getCurrentTime() {
 
+    const updateCurrentTime = () => {
+      const time = new Date()
+      this.currentTime = time.toLocaleTimeString();
+    }
+
+    this.currentTimeInterval = setInterval(updateCurrentTime, 1000);
+  }
 
 }
