@@ -8,14 +8,21 @@ import { Component } from '@angular/core';
 export class CurrentTimeComponent {
 
   currentDate: string = '';
+  currentTime: string = '';
 
   constructor(){
     this.getCurrentDate();
+    this.getCurrentTime();
   }
 
   getCurrentDate(){
     const date = new Date();
     this.currentDate = date.toLocaleDateString();
+  }
+
+  getCurrentTime(){
+    const time = new Date();
+    this.currentTime = time.toLocaleTimeString();
   }
 
 
